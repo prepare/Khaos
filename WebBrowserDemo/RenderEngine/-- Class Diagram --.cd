@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="RenderEngine.ChildManager" Collapsed="true">
+    <Position X="0.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEBBACAIAQAQAAAIAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ChildManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualBig" Collapsed="true">
+    <Position X="50.75" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FontStyleVisuals\VisualBig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualBold" Collapsed="true">
+    <Position X="53" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FontStyleVisuals\VisualBold.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualItalic" Collapsed="true">
+    <Position X="55.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FontStyleVisuals\VisualItalic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualSmall" Collapsed="true">
+    <Position X="57.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FontStyleVisuals\VisualSmall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualStrong" Collapsed="true">
+    <Position X="59.75" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FontStyleVisuals\VisualStrong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualUnderline" Collapsed="true">
+    <Position X="62" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FontStyleVisuals\VisualUnderline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualDefinitionDescription" Collapsed="true">
+    <Position X="46.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lists\DefinitionList\VisualDefinitionDescription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualDefinitionItem" Collapsed="true">
+    <Position X="3.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lists\DefinitionList\VisualDefinitionItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualDefinitionList" Collapsed="true">
+    <Position X="12.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lists\DefinitionList\VisualDefinitionList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualList" Collapsed="true">
+    <Position X="19.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lists\VisualList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualListItem" Collapsed="true">
+    <Position X="26" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lists\VisualListItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualOrderedList" Collapsed="true">
+    <Position X="30.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lists\VisualOrderedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.SectionManager" Collapsed="true">
+    <Position X="0.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQCAAAEAIAAEAAAAAAQAAAAEQAAAAAAAABAAAAA=</HashCode>
+      <FileName>SectionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.TextSectionManager" Collapsed="true">
+    <Position X="0.5" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQEACAEAAAQAAAAAQAAAAAAAAAgAAAA=</HashCode>
+      <FileName>TextSectionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualAnchor" Collapsed="true">
+    <Position X="64.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAABAAAAAAAAAAAJAAAAAYAAAAAA=</HashCode>
+      <FileName>VisualAnchor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualBody" Collapsed="true">
+    <Position X="5.75" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualBody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualBreak" Collapsed="true">
+    <Position X="14.75" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualBreak.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualButton" Collapsed="true">
+    <Position X="21.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAAAAAAACACAAAAIQQAAQAAAIAAAACKAAAAgA=</HashCode>
+      <FileName>VisualButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualCenter" Collapsed="true">
+    <Position X="28.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAACQICAAAEAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualCenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualDiv" Collapsed="true">
+    <Position X="32.75" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualDiv.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualDocument" Collapsed="true">
+    <Position X="37.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualHeading" Collapsed="true">
+    <Position X="41.75" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualHeading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualHorizontalRule" Collapsed="true">
+    <Position X="48.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualHorizontalRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualImage" Collapsed="true">
+    <Position X="8" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAABAAAACACAAAAIQQEAQAAAIAAAAAIAABAgA=</HashCode>
+      <FileName>VisualImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualInput" Collapsed="true">
+    <Position X="17" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAAAAAAAAAAACACACAAIQQAAQBADIAAQAoIAAACgA=</HashCode>
+      <FileName>VisualInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualLabel" Collapsed="true">
+    <Position X="23.75" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAACACAAAAIQQAAQAAAIAAAACKQAAAgA=</HashCode>
+      <FileName>VisualLable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualNode">
+    <Position X="34" Y="4" Width="6" />
+    <TypeIdentifier>
+      <HashCode>FAycgLSIQM5gGQCsDQVIBMUVWFbxE54AEAghaIBJogA=</HashCode>
+      <FileName>VisualNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RenderEngine.VisualNoScript" Collapsed="true">
+    <Position X="35" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualNoFrames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualNoFrames" Collapsed="true">
+    <Position X="39.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualNoScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualParagraph" Collapsed="true">
+    <Position X="44" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualParagraph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualSpan" Collapsed="true">
+    <Position X="57.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualSpan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.VisualText" Collapsed="true">
+    <Position X="10.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAoAAQEAAAAAAAgAIAQAAABAIIACAAAKAAACAA=</HashCode>
+      <FileName>VisualText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderDemo.MultiCompare" Collapsed="true">
+    <Position X="66.75" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Compare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.Properties.Resources" Collapsed="true">
+    <Position X="68.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_a" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="70.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_a.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_b" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="72" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_b.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_big" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="73.75" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_big.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_body" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="75.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_body.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_br" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.75" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_br.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_center" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="68.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_center.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_default" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="70.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_default.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_div" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="72" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_div.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_h" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="73.75" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_h.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_hr" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="75.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_hr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_html" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.75" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_html.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_i" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="68.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_i.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_input" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="70.25" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_input.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_lable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="72" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_lable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_li" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="73.75" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_li.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_ol" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="75.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_ol.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_p" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.75" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_p.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_small" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="68.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_small.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_span" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="70.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_span.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_strong" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="72" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_strong.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_text" Collapsed="true">
+    <Position X="73.75" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_text.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_u" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="75.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_u.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.Trans_ul" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.75" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\Trans_ul.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RenderEngine.Transformers.TransformManager" Collapsed="true">
+    <Position X="68.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAAAAIAAwAgQAIAAYAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\TransformManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RenderEngine.Transformers.ITransformable" Collapsed="true">
+    <Position X="66.75" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transformers\ITransformable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

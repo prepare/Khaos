@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7837A7AB-3B61-4033-A702-8528BC592D7A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RenderEngine</RootNamespace>
+    <AssemblyName>RenderEngine</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Visual.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChildManager.cs" />
+    <Compile Include="Compare.cs" />
+    <Compile Include="Transformers\Trans_td.cs" />
+    <Compile Include="Transformers\Trans_tr.cs" />
+    <Compile Include="Transformers\Trans_table.cs" />
+    <Compile Include="Transformers\ITransformable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_a.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_br.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_center.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_form.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_img.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_input.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_lable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_noframe.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_noscript.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\TransformManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_default.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_html.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transformers\Trans_text.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VisualForm.cs" />
+    <Compile Include="IPageHost.cs" />
+    <Compile Include="VisualInput.cs" />
+    <Compile Include="VisualLabel.cs" />
+    <Compile Include="VisualBreak.cs" />
+    <Compile Include="VisualNoFrames.cs" />
+    <Compile Include="VisualAnchor.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TextSectionManager.cs" />
+    <Compile Include="VisualImage.cs" />
+    <Compile Include="VisualDocument.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SectionManager.cs" />
+    <Compile Include="VisualButton.cs" />
+    <Compile Include="VisualCenter.cs" />
+    <Compile Include="VisualNode.cs" />
+    <Compile Include="VisualNoScript.cs" />
+    <Compile Include="VisualTable.cs" />
+    <Compile Include="VisualTableCell.cs" />
+    <Compile Include="VisualTableRow.cs" />
+    <Compile Include="VisualText.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="-- To Do List --.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DOMImplementation\DOMImplementation\DOMbase.csproj">
+      <Project>{2194475A-3D65-42ED-B296-F83EA27D2489}</Project>
+      <Name>DOMbase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSS\CascadingStyleSheets.csproj">
+      <Project>{4E41DA64-554F-4CD1-8FD9-D91904714688}</Project>
+      <Name>CascadingStyleSheets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhoenixOI\PhoenixOI.csproj">
+      <Project>{B85AF181-8C05-4138-8FDA-43A72F9CE9CA}</Project>
+      <Name>PhoenixOI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhoenixSettings\PhoenixSettings.csproj">
+      <Project>{FD60AC25-2891-40B2-863E-6F0B8F2ECE61}</Project>
+      <Name>PhoenixSettings</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="-- Class Diagram --.cd" />
+    <None Include="Resources\LinkBroken.png" />
+    <Content Include="Visual.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

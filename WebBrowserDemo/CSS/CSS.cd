@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CSS.Style">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CSS.Style.Floats" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Style.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CSS.Style.Clearing" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Style.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CSS.Style.Visibility" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Style.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CSS.Style.Overflow" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Style.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAFACAAABgAEAAAEIACAAAAAEBAAIQgABAEBA=</HashCode>
+      <FileName>Style.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Padding" />
+      <Property Name="Margin" />
+      <Property Name="Position" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CSS.Distancing">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAACACAAAAAAAA=</HashCode>
+      <FileName>Distancing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

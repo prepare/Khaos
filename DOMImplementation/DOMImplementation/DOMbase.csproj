@@ -1,0 +1,236 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2194475A-3D65-42ED-B296-F83EA27D2489}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DOMCore</RootNamespace>
+    <AssemblyName>DOMbase</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CSS\CSSManager.cs" />
+    <Compile Include="CSS\CSSParser.cs" />
+    <Compile Include="CSS\CSSStyle.cs" />
+    <Compile Include="CSS\DefaultStyleSheet.cs" />
+    <Compile Include="CSS\Distancing.cs" />
+    <Compile Include="CSS\StyleSelector.cs" />
+    <Compile Include="DOMCoreImplementation\Attr.cs" />
+    <Compile Include="DOMCoreImplementation\CDATASection.cs" />
+    <Compile Include="DOMCoreImplementation\CharacterData.cs" />
+    <Compile Include="DOMCoreImplementation\Comment.cs" />
+    <Compile Include="DOMCoreImplementation\Document.cs" />
+    <Compile Include="DOMCoreImplementation\DocumentFragment.cs" />
+    <Compile Include="DOMCoreImplementation\DocumentType.cs" />
+    <Compile Include="DOMCoreImplementation\DOMException.cs" />
+    <Compile Include="DOMCoreImplementation\DOMImplementation.cs" />
+    <Compile Include="DOMCoreImplementation\Element.cs" />
+    <Compile Include="DOMCoreImplementation\EntityReference.cs" />
+    <Compile Include="DOMCoreInterface\IProcessingInstruction.cs" />
+    <Compile Include="DOMCoreImplementation\NamedNodeMap.cs" />
+    <Compile Include="DOMCoreImplementation\Node.cs" />
+    <Compile Include="DOMCoreImplementation\NodeList.cs" />
+    <Compile Include="DOMCoreImplementation\ProcessingInstruction.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLAnchorElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLBodyElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLBRElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLButtonElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLDivElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLDListElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLFontElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLFormElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLHeadElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLHeadingElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLHRElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLHtmlElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLImageElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLInputElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLLabelElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLLIElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLLinkElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLMetaElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLOListElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLOptGroupElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLOptionElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLParagraphElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLStyleElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLTableCaptionElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLTableCellElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLTableColElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLTableElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLTableRowElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLTableSectionElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLTextAreaElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLTitleElement.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLUListElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLInputElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLLinkElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLMetaElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLTextAreaElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLOptionElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLOptGroupElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLOListElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLLIElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLLabelElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLImageElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLHRElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLHeadingElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLFormElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLButtonElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLBRElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLTableRowElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLTableSectionElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLTableElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLTableCellElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLTableColElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLTableCaptionElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLHtmlElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLAnchorElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLTitleElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLUListElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLStyleElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLParagraphElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLHeadElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLFontElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLDListElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLDivElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLBodyElement.cs" />
+    <Compile Include="DOMParserRules\DPRInput_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRLink_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRMeta_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRTextArea_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRStyle_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRP_Tag.cs" />
+    <Compile Include="DOMParserRules\DPROption_Tag.cs" />
+    <Compile Include="DOMParserRules\DPROptgroup_Tag.cs" />
+    <Compile Include="DOMParserRules\DPROl_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRLi_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRLabel_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRImg_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRHr_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRH6_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRH5_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRH4_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRH3_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRH2_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRH1_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRHead_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRFont_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRDl_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRForm_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRBr_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRTable_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRTr_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRTd_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRA_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRDiv_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRHtml_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRText.cs" />
+    <Compile Include="DOMParserRules\DPRGeneric_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRBody_Tag.cs" />
+    <Compile Include="DOMParserRules\DPRTitle_Tag.cs" />
+    <Compile Include="DOMParser\DocumentStream.cs" />
+    <Compile Include="DOMParser\DOMParserRule.cs" />
+    <Compile Include="DOMParser\DOMParser.cs" />
+    <Compile Include="DOMParser\Program.cs" />
+    <Compile Include="DOMCoreImplementation\Text.cs" />
+    <Compile Include="DOMCoreInterface\IAttr.cs" />
+    <Compile Include="DOMCoreInterface\ICDATASection.cs" />
+    <Compile Include="DOMCoreInterface\ICharacterData.cs" />
+    <Compile Include="DOMCoreInterface\IComment.cs" />
+    <Compile Include="DOMCoreInterface\IDocument.cs" />
+    <Compile Include="DOMCoreInterface\IDocumentFragment.cs" />
+    <Compile Include="DOMCoreInterface\IDocumentType.cs" />
+    <Compile Include="DOMCoreInterface\IDOMImplementation.cs" />
+    <Compile Include="DOMCoreInterface\IElement.cs" />
+    <Compile Include="DOMCoreInterface\IEntityReference.cs" />
+    <Compile Include="DOMCoreInterface\INamedNodeMap.cs" />
+    <Compile Include="DOMCoreInterface\INode.cs" />
+    <Compile Include="DOMCoreInterface\INodeList.cs" />
+    <Compile Include="DOMCoreInterface\IText.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLCollection.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLDocument.cs" />
+    <Compile Include="DOMHtmlImplementation\HTMLElement.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLCollection.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLDocument.cs" />
+    <Compile Include="DOMHtmlInterface\IHTMLElement.cs" />
+    <Compile Include="DOMParser\Attribute.cs" />
+    <Compile Include="DOMParser\TagInfo.cs" />
+    <Compile Include="DOMParser\HtmlParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\WebBrowserDemo\CSS\CascadingStyleSheets.csproj">
+      <Project>{4E41DA64-554F-4CD1-8FD9-D91904714688}</Project>
+      <Name>CascadingStyleSheets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WebBrowserDemo\PhoenixOI\PhoenixOI.csproj">
+      <Project>{B85AF181-8C05-4138-8FDA-43A72F9CE9CA}</Project>
+      <Name>PhoenixOI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fetcher\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

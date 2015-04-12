@@ -1,0 +1,82 @@
+﻿::::::::::::::::::::::::::::::::
+::Tasks (In Order of Priority)::
+::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::
+::     Version History        ::
+:: -------------------------- ::
+::     Updated: 4/22/09       ::
+::     Updated:               ::
+::     Updated:               ::
+::                            ::
+::::::::::::::::::::::::::::::::
+
+*Complete Tasks will have a prefix of plus (+), incomplete tasks will have a minus (-)
+
+:::::::::::::::::::::
+::[Continued Tasks]::
+:::::::::::::::::::::
+
+-Parser Testing
+-Visual Testing
+
+::::::::::::::::::::
+::[Priority Hight]::
+::::::::::::::::::::
+
+check
+text selection
+
+
++BrowserControl
+	-Status
+-VisualNodeBackgroundImage
+-Default Css
+-Various Tags
+	Table
+	Lists
+	
++Hyperlinks
++Viewers For
+	+DOM
+	+Page Source
+	+Visual Model
+-StyleSheets
+-SelectingText
+
+:::::::::::::::::::::
+::[Priority Medium]::
+:::::::::::::::::::::
+
++Threading
+-ZOrder
+-Floats
+	-Floating
+	-Clear
+
+::[Priority Low]::
+
+-Absolute Positioning
+-Fixed Positioning
++Scrolling
+
+:::::::::::::::::::::::::::::::
+::Things not going to be done::
+:::::::::::::::::::::::::::::::
+
+-Advanced Overflow
+-Javascript
+-Plugins
+
+::::::::::::::::::
+::External Tasks::
+::::::::::::::::::
+
+-Algorithm Development
+-Postmortum
+
+::::::::::::
+::debuging::
+::::::::::::
+
+-Fixing the problem isn't the problem.. finding it is

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4E41DA64-554F-4CD1-8FD9-D91904714688}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CascadingStyleSheets</RootNamespace>
+    <AssemblyName>CascadingStyleSheets</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackgroundAttachment.cs" />
+    <Compile Include="WebFontUnit.cs" />
+    <Compile Include="WebLineBreak.cs" />
+    <Compile Include="WebTextAlign.cs" />
+    <Compile Include="WebTextDecoration.cs" />
+    <Compile Include="WebOpacity.cs" />
+    <Compile Include="WebOverflow.cs" />
+    <Compile Include="WebIndex.cs" />
+    <Compile Include="WebVisibility.cs" />
+    <Compile Include="WebDisplay.cs" />
+    <Compile Include="WebClear.cs" />
+    <Compile Include="WebFloat.cs" />
+    <Compile Include="WebVAlign.cs" />
+    <Compile Include="WebPosition.cs" />
+    <Compile Include="IStyle.cs" />
+    <Compile Include="WebBackgroundPosition.cs" />
+    <Compile Include="WebBackgroundRepeat.cs" />
+    <Compile Include="WebBorderStyle.cs" />
+    <Compile Include="WebCursor.cs" />
+    <Compile Include="WebImageLoader.cs" />
+    <Compile Include="CssEnums.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="Unit.cs" />
+    <Compile Include="WebFontStretch.cs" />
+    <Compile Include="WebFontWeight.cs" />
+    <Compile Include="WebFontStyle.cs" />
+    <Compile Include="WebFontFamily.cs" />
+    <Compile Include="WebUnit.cs" />
+    <Compile Include="WebLength.cs" />
+    <Compile Include="WebBorderWidth.cs" />
+    <Compile Include="IStyleInherits.cs" />
+    <Compile Include="WebEnum.cs" />
+    <Compile Include="IStyleProperty.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Parser.cs" />
+    <Compile Include="Style.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StyleSheet.cs" />
+    <Compile Include="WebEnumInheriting.cs" />
+    <Compile Include="WebColor.cs" />
+    <Compile Include="WebImage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CSS.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PhoenixOI\PhoenixOI.csproj">
+      <Project>{B85AF181-8C05-4138-8FDA-43A72F9CE9CA}</Project>
+      <Name>PhoenixOI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

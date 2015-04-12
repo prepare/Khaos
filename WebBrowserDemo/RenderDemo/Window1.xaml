@@ -1,0 +1,14 @@
+﻿<Window x:Class="RenderDemo.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Render Demo" Height="700" Width="600" Name="RenderTester">
+    <!--<WrapPanel><Button>abcdefghijklmnop</Button>
+        <WrapPanel><Button>abcdefghijklmnop</Button>
+            <WrapPanel><Button>abcdefghijklmnop</Button>
+                <Button>abcdefghijklmnop</Button>
+            </WrapPanel>
+        </WrapPanel>
+        <WrapPanel><Button>abcdefghijklmnop</Button></WrapPanel>
+    </WrapPanel>-->
+    
+</Window>

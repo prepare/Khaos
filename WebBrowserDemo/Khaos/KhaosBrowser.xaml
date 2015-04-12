@@ -1,0 +1,98 @@
+﻿<Window x:Class="Khaos.KhaosBrowser"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:r="clr-namespace:Wpf.Controls;assembly=Wpf.TabControl"
+    xmlns:Khaos="clr-namespace:Khaos"
+    xmlns:Phoenix="clr-namespace:PhoenixEngine;assembly=PhoenixEngine"
+    Title="KhaosBrowser" Height="462" Width="800" Loaded="Window_Loaded" Icon="/Khaos;component/Images/logo.png">
+    
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources\GlassButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    <Window.CommandBindings>
+        <CommandBinding x:Name="NewWindowCommand" Command="ApplicationCommands.New" CanExecute="AlwaysCanExecute" Executed="NewWindowCommand_Executed"/>
+        <CommandBinding x:Name="ExitCommand" Command="ApplicationCommands.Close" CanExecute="AlwaysCanExecute" Executed="ExitCommand_Executed"/>
+        <CommandBinding x:Name="NewTab" Command="Khaos:KhaosBrowser.NewTabCommand" CanExecute="AlwaysCanExecute" Executed="NewTab_Executed"/>
+        <CommandBinding x:Name="Tools" Command="Khaos:KhaosBrowser.ViewToolsCommand" CanExecute="AlwaysCanExecute" Executed="Tools_Executed"/>
+        <CommandBinding x:Name="About" Command="Khaos:KhaosBrowser.ViewAboutCommand" CanExecute="AlwaysCanExecute" Executed="About_Executed"/>
+    </Window.CommandBindings>
+    
+    <DockPanel>
+        <StatusBar Name="statusBar" DockPanel.Dock="Bottom" Height="23" >
+            <TextBlock Name="status">Ready</TextBlock>
+        </StatusBar>
+        <Menu Height="22" Name="menu" DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="New Window" Command="ApplicationCommands.New"></MenuItem>
+                <MenuItem Header="New Tab" Command="Khaos:KhaosBrowser.NewTabCommand"></MenuItem>
+                <MenuItem Header="Exit" Command="ApplicationCommands.Close"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="View">
+                <MenuItem Header="Tools" Command="Khaos:KhaosBrowser.ViewToolsCommand"></MenuItem>
+                <MenuItem Header="History" Click="BasicHistory_Click"></MenuItem>
+                <MenuItem Header="History (In depth)" Click="AdvancedHistory_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem Header="About" Command="Khaos:KhaosBrowser.ViewAboutCommand"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <DockPanel DockPanel.Dock="Top">
+            <Button Style="{StaticResource GlassButton}" DockPanel.Dock="Left" Height="20" Width="20" Margin="2" Name="btnBack" Background="Gray" Click="btnBack_Click">
+                <Image Width="10" Height="10" Source="Images\back.png"/>
+            </Button>
+            <Button Style="{StaticResource GlassButton}" DockPanel.Dock="Left" Height="20" Width="20" Margin="2" Name="btnForw" Background="Gray" Click="btnForw_Click">
+                <Image Width="10" Height="10" Source="Images\forw.png"/>
+            </Button>
+            <Button Style="{StaticResource GlassButton}" DockPanel.Dock="Left" Height="20" Width="20" Margin="2" Name="btnHome" Background="Gray" Click="btnHome_Click">
+                <Image Width="10" Height="10" Source="Images\home.png"/>
+            </Button>
+            <Khaos:NavTextBox x:Name="NavTextBox" Navigate="NavTextBox_Navigate" VerticalContentAlignment="Center" DockPanel.Dock="Top">
+                http://www.cuil.com
+            </Khaos:NavTextBox>
+        </DockPanel>
+
+        <r:TabControl DockPanel.Dock="Top" 
+                      x:Name="tabControl" 
+				      TabItemMinWidth="150" 
+                      TabItemMaxWidth="300" 
+                      TabItemMinHeight="30" 
+                      TabItemMaxHeight="50" 
+                      VerticalContentAlignment="Center"
+                      TabItemAdded="tabControl_TabItemAdded"
+                      SelectionChanged="tabControl_SelectionChanged">
+                     
+            <r:TabControl.TabItemNormalBackground>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFFCFDFD" Offset="0"/>
+                    <GradientStop Color="#FFE5EAF5" Offset="0.3"/>
+                    <GradientStop Color="#FFCFD7EB" Offset="0.3"/>
+                    <GradientStop Color="#FFE0E5F5" Offset="0.7"/>
+                    <GradientStop Color="#FFECEEFC" Offset="1"/>
+                </LinearGradientBrush>
+            </r:TabControl.TabItemNormalBackground>
+            <r:TabControl.TabItemSelectedBackground>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFFBFDFE" Offset="0"/>
+                    <GradientStop Color="#FFEAF6FB" Offset="0.3"/>
+                    <GradientStop Color="#FFCEE7FA" Offset="0.3"/>
+                    <GradientStop Color="#FFB9D1FA" Offset="1"/>
+                </LinearGradientBrush>
+            </r:TabControl.TabItemSelectedBackground>
+            <r:TabControl.TabItemMouseOverBackground>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFFCFDFD" Offset="0"/>
+                    <GradientStop Color="#FFC6DDF7" Offset="0.3"/>
+                    <GradientStop Color="#FF99C6EE" Offset="0.3"/>
+                    <GradientStop Color="#FFB6D6F1" Offset="0.7"/>
+                    <GradientStop Color="#FFD9E9F9" Offset="1"/>
+                </LinearGradientBrush>
+            </r:TabControl.TabItemMouseOverBackground>
+        </r:TabControl>
+    </DockPanel>
+</Window>
